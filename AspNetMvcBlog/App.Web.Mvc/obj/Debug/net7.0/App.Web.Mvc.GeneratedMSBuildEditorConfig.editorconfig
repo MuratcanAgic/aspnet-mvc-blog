@@ -16,12 +16,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\murat\source\repos\aspnet-mvc-blog\AspNetMvcBlog\App.Web.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Auth/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Blog/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Blog/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Page/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/Error.cshtml]

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/App.Web.Mvc.styles.css" asp-append-version="true" />*@
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   @* <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Revolve - Personal Magazine blog Template</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,20 +27,23 @@
     <link rel="stylesheet" href="../plugins/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="../plugins/magnific-popup/magnific-popup.css">
     <!-- manin stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">*@
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+    <link rel='stylesheet' id='roboto-subset.css-css' href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />
+    <link rel="shortcut icon" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/favicon.ico" />
+    <link rel="canonical" href="https://mdbootstrap.com/docs/standard/forms/overview/" />
 
 </head>
 <body>
-    <partial name="_Header" />
-    <partial name="_Slider" />
-    <partial name="_Articles" />
+   
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <partial name="_Footer" />
+    <partial name="_RegisterBody" />
     
    @* <footer class="border-top footer text-muted">
         <div class="container">

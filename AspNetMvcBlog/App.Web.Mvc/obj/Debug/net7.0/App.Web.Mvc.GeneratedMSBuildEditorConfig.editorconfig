@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Category/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Category/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Home/Index.cshtml]
@@ -50,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Page/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/Components/Navbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/Components/Slider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/Error.cshtml]
@@ -66,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/_BlogArticles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbG9nQXJ0aWNsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/_CategoryIndexLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUluZGV4TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Views/Shared/_FashionArticles.cshtml]

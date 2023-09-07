@@ -13,7 +13,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--Favicon-->
-  <link rel="stylesheet" href="@Url.Content("~/images/favicon.ico")" />
+  <link rel="stylesheet"  href="@Url.Content("~/images/favicon.ico")" />
   <!-- THEME CSS
   ================================================== -->
   <!-- Bootstrap -->
@@ -29,21 +29,17 @@
 
   <!-- manin stylesheet -->
   <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
-
-
 </head>
 <body>
-    <partial name="_Header" />
-   
-    <partial name="_AboutArticles" />
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+  <partial name="_Header" />
+  <div class="container">
+    <main role="main" class="pb-3">
+      @RenderBody()
+    </main>
+  </div>
 
-    <partial name="_FooterV2" />
-    
+  <partial name="_Footer" />
+
   @* <footer class="border-top footer text-muted">
   <div class="container">
   &copy; 2023 - App.Web.Mvc - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -71,6 +67,6 @@
   <!-- main js -->
 
   <script src="@Url.Content("~/js/custom.js")"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+  @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

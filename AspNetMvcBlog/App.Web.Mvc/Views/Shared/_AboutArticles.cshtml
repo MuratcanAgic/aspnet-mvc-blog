@@ -1,4 +1,6 @@
-﻿<section class="pt-5 padding-bottom">
+﻿@model IEnumerable<App.Web.Mvc.Data.Entity.Page>
+
+<section class="pt-5 padding-bottom">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -12,11 +14,11 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <h5 class="text-uppercase letter-spacing mb-4">Who is me?</h5>
-                                <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat</p>
+                                <p>@Model.FirstOrDefault().PageTitle</p>
                             </div>
                             <div class="col-lg-4">
                                 <h5 class="text-uppercase letter-spacing mb-4">My vission</h5>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis biben. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
+                <p>@Model.FirstOrDefault().PageContext</p>
                             </div>
                             <div class="col-lg-4">
                                 <h5 class="text-uppercase letter-spacing mb-4">Follow Me :</h5>

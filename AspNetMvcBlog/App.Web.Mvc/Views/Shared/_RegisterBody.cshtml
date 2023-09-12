@@ -1,72 +1,71 @@
-﻿<div class="mb-5"></div>
+﻿@model App.Web.Mvc.Data.Entity.User
+
+<div class="mb-5"></div>
 <section class="pb-4">
-    <div class="bg-white border rounded-5">
+  <div class="bg-white border rounded-5">
 
-        <section class="w-100 p-4 d-flex justify-content-center pb-4">
-            <form style="width: 26rem;">
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-4">
-                    <div class="col">
-                        <div class="form-outline">
-                            <input type="text" id="form3Example1" class="form-control">
-                            <label class="form-label" for="form3Example1" style="margin-left: 0px;">First name</label>
-                            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 68.8px;"></div><div class="form-notch-trailing"></div></div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form-outline">
-                            <input type="text" id="form3Example2" class="form-control">
-                            <label class="form-label" for="form3Example2" style="margin-left: 0px;">Last name</label>
-                            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 68px;"></div><div class="form-notch-trailing"></div></div>
-                        </div>
-                    </div>
-                </div>
+    <section class="w-100 p-4 d-flex justify-content-center pb-4">
+      <form asp-controller="Auth" asp-action="Register" style="width: 26rem;">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <label class="form-label" asp-for="UserName" style="margin-left: 0px;"></label>
+            <input type="text" asp-for="UserName" class="form-control">
+            <span asp-validation-for="UserName" class="text-danger"></span>
+          </div>
+          <div class="col">
+            <label class="form-label" asp-for="UserSurname" style="margin-left: 0px;"></label>
+            <input type="text" asp-for="UserSurname" class="form-control">
+            <span asp-validation-for="UserSurname" class="text-danger"></span>
+          </div>
+        </div>
+        <div class="row mb-4">
+        <!-- Email input -->
+        <div class="col">
+          <label class="form-label" asp-for="UserEmail" style="margin-left: 0px;"></label>
+          <input type="text" asp-for="UserEmail" class="form-control">
+          <span asp-validation-for="UserEmail" class="text-danger"></span>
+        </div>
+        </div>
+        <div class="row mb-4">
+        <!-- Password input -->
+        <div class="col">
+          <label class="form-label" asp-for="UserPassword" style="margin-left: 0px;"></label>
+          <input type="text" asp-for="UserPassword" class="form-control">
+          <span asp-validation-for="UserPassword" class="text-danger"></span>
+        </div>
+        </div>
+        @*<!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example32" checked="">
+        <label class="form-check-label" for="form2Example32">
+        Subscribe to our newsletter
+        </label>
+        </div>*@
 
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                    <input type="email" id="form3Example3" class="form-control">
-                    <label class="form-label" for="form3Example3" style="margin-left: 0px;">Email address</label>
-                    <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div>
-                </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
 
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="form3Example4" class="form-control">
-                    <label class="form-label" for="form3Example4" style="margin-left: 0px;">Password</label>
-                    <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64px;"></div><div class="form-notch-trailing"></div></div>
-                </div>
+        <!-- Register buttons -->
+        @* <div class="text-center">
+        <p>or sign up with:</p>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+        <i class="fab fa-facebook-f"></i>
+        </button>
 
-                <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example32" checked="">
-                    <label class="form-check-label" for="form2Example32">
-                        Subscribe to our newsletter
-                    </label>
-                </div>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+        <i class="fab fa-google"></i>
+        </button>
 
-                <!-- Submit button -->
-                <button type="button" class="btn btn-primary btn-block mb-4">Sign up</button>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+        <i class="fab fa-twitter"></i>
+        </button>
 
-                <!-- Register buttons -->
-                <div class="text-center">
-                    <p>or sign up with:</p>
-                    <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-secondary btn-floating mx-1">
-                        <i class="fab fa-github"></i>
-                    </button>
-                </div>
-            </form>
-        </section>
-    </div>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+        <i class="fab fa-github"></i>
+        </button>
+        </div>*@
+      </form>
+    </section>
+  </div>
 </section>

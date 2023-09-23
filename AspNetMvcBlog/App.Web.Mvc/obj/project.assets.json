@@ -1132,6 +1132,32 @@
             "rid": "win"
           }
         }
+      },
+      "App.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "App.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Business.dll": {}
+        }
+      },
+      "App.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/App.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Persistence.dll": {}
+        }
       }
     }
   },
@@ -3452,10 +3478,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "App.Business/1.0.0": {
+      "type": "project",
+      "path": "../App.Business/App.Business.csproj",
+      "msbuildProject": "../App.Business/App.Business.csproj"
+    },
+    "App.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../App.Persistence/App.Persistence.csproj",
+      "msbuildProject": "../App.Persistence/App.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "App.Business >= 1.0.0",
+      "App.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -3494,7 +3532,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\murat\\source\\repos\\aspnet-mvc-blog\\AspNetMvcBlog\\App.Business\\App.Business.csproj": {
+              "projectPath": "C:\\Users\\murat\\source\\repos\\aspnet-mvc-blog\\AspNetMvcBlog\\App.Business\\App.Business.csproj"
+            },
+            "C:\\Users\\murat\\source\\repos\\aspnet-mvc-blog\\AspNetMvcBlog\\App.Persistence\\App.Persistence.csproj": {
+              "projectPath": "C:\\Users\\murat\\source\\repos\\aspnet-mvc-blog\\AspNetMvcBlog\\App.Persistence\\App.Persistence.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

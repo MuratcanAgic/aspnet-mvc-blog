@@ -1,11 +1,11 @@
-﻿using App.Web.Mvc.Data;
+﻿using App.Persistence.Data;
 using App.Web.Mvc.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace App.Web.Mvc.Controllers
 {
-	public class HomeController : Controller
+  public class HomeController : Controller
 	{
 
 		private readonly AppDbContext _db;

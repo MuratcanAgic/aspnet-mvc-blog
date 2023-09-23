@@ -1,40 +1,38 @@
-﻿using App.Web.Mvc.Data;
+﻿using App.Business.Services.Abstract;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.Controllers
 {
-  public class BlogController : Controller
-  {
+    public class BlogController : Controller
+	{
 
 
-    private readonly AppDbContext _db;
+		private readonly IPostService _postService;
 
+		public BlogController(IPostService postService)
+		{
 
-    public BlogController(AppDbContext db)
-    {
-      _db = db;
-    }
+			_postService = postService;
+		}
 
-    public IActionResult Search(string query, int page)
-    {
-      return View();
-    }
+		public IActionResult Search(string query, int page)
+		{
+			return View();
+		}
 
-    public IActionResult Detail(int Id)
-    {
-      if (Id == 0)
-        return RedirectToAction(nameof(Index));
+		public IActionResult Detail(int Id)
+		{
+			if (Id == 0)
+				return RedirectToAction(nameof(Index));
 
-      var posts = _db.Post.Where(p => p.Id == Id).Include(p => p.PostImage).Include(p => p.CategoryPosts).ThenInclude(p => p.Category);
+			var post = _postService.GetById(Id);
+			if (post is null)
+				return RedirectToAction(nameof(Index));
 
-      if (posts is null)
-        return RedirectToAction(nameof(Index));
+			ViewBag.CategoryName = _postService.GetCategoryName(Id);
+			return View(post);
 
-      return View(posts);
+		}
 
-
-    }
-
-  }
+	}
 }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<App.Web.Mvc.Data.Entity.Post>
+﻿@model App.Persistence.Data.Entity.Post
 
 <section class="single-block-wrapper section-padding">
 	<div class="container">
@@ -7,16 +7,16 @@
 				<div class="single-post">
 					<div class="post-header mb-5 text-center">
 						<div class="meta-cat">
-							<a class="post-category font-extra text-color text-uppercase font-sm letter-spacing-1" href="#">@Model.FirstOrDefault().CategoryPosts.FirstOrDefault().Category.CategoryName</a>
+							<a class="post-category font-extra text-color text-uppercase font-sm letter-spacing-1" href="#">@ViewBag.CategoryName</a>
 							
 						</div>
 						<h2 class="post-title mt-2">
-							@Model.FirstOrDefault().PostTitle
+							@Model.PostTitle
 						</h2>
 						
 						<div class="post-meta">
 							<span class="text-uppercase font-sm letter-spacing-1 mr-3">by Liam</span>
-							<span class="text-uppercase font-sm letter-spacing-1">@Model.FirstOrDefault().PostDate</span>
+							<span class="text-uppercase font-sm letter-spacing-1">@Model.PostDate</span>
 						</div>
 						<div class="post-featured-image mt-5">
 							<img src="~/images/slider/slider1.jpg" class="img-fluid w-100" alt="featured-image">
@@ -24,7 +24,7 @@
 					</div>
 					<div class="post-body">
 						<div class="entry-content">
-						@Model.FirstOrDefault().PostContext
+						@Model.PostContext
 						</div>
 
 						<div class="post-tags py-4">

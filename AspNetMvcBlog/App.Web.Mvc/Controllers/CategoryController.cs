@@ -1,18 +1,17 @@
-﻿using App.Web.Mvc.Data;
+﻿using App.Business.Services.Abstract;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace App.Web.Mvc.Controllers
 {
 	public class CategoryController : Controller
 	{
 
-		private readonly AppDbContext _db;
+		//private readonly AppDbContext _db;
+		private readonly ICategoryService _categoryService;
 
-
-		public CategoryController(AppDbContext db)
+		public CategoryController(ICategoryService categoryService)
 		{
-			_db = db;
+			_categoryService = categoryService;
 		}
 
 		public IActionResult Index(int id, int page)
@@ -24,7 +23,7 @@ namespace App.Web.Mvc.Controllers
 			if (searchString == null)
 				return RedirectToAction(nameof(Index));
 
-			var posts = _db.Post.Where(p => p.PostContext.Contains(searchString) || p.PostTitle.Contains(searchString)).Include(p => p.PostImage).Include(p => p.CategoryPosts).ThenInclude(p => p.Category).ToList();
+			var posts = _categoryService.GetPostsBySearch(searchString);
 
 			if (posts is null)
 				return RedirectToAction(nameof(Index));
@@ -38,7 +37,7 @@ namespace App.Web.Mvc.Controllers
 			if (Id == 0)
 				return RedirectToAction(nameof(Index));
 
-			var posts = _db.CategoryPost.Where(p => p.CategoryId == Id).Include(c => c.Post).ThenInclude(c => c.PostImage).Include(c => c.Category).ToList();
+			var posts = _categoryService.GetPostsByCategoryIndex(Id);
 
 			if (posts is null)
 				return RedirectToAction(nameof(Index));

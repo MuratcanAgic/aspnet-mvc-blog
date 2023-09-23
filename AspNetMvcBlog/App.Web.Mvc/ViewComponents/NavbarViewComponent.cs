@@ -1,10 +1,10 @@
-﻿using App.Web.Mvc.Data;
+﻿using App.Persistence.Data;
 using App.Web.Mvc.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Web.Mvc.ViewComponents
 {
-	public class NavbarViewComponent : ViewComponent
+  public class NavbarViewComponent : ViewComponent
 	{
 		private readonly AppDbContext _db;
 

@@ -1,8 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace App.Web.Mvc.Data.Entity
+namespace App.Persistence.Data.Entity
 {
   public class Page
   {

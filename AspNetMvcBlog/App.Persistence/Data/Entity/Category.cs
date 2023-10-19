@@ -13,10 +13,10 @@ namespace App.Persistence.Data.Entity
     [Required(ErrorMessage = "{0} boş geçilemez.")]
     [DisplayName("Kategori Adı")]
     [StringLength(40, ErrorMessage = "{0} {1} karakterden fazla olamaz!")]
-    [MinLength(10, ErrorMessage = "{0} en az {1} karakter olabilir!")]
+    [MinLength(3, ErrorMessage = "{0} en az {1} karakter olabilir!")]
     public string CategoryName { get; set; }
 
-    public List<CategoryPost> CategoryPosts { get; set; }
+    public List<CategoryPost>? CategoryPosts { get; set; }
 
   }
 }

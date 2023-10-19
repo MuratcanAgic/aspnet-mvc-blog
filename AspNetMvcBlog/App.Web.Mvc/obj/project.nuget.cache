@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CkfIUQCY1yYgbxqQiW9Ip3LVKSQjOXSCRa0k8RCmEm/WG11u4IwZixy5MEd11U3Bs8vWNCI2g8NrPM/d6EVTKg==",
+  "dgSpecHash": "/qaBE8TrrD08lFF9528dxPF5+yddVF+bTXHYKw1gN8yOeOpvRcRAashbo4nahKNGm3+eHkHUaZEnpEZe1UKrkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\murat\\source\\repos\\aspnet-mvc-blog\\AspNetMvcBlog\\App.Web.Mvc\\App.Web.Mvc.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\murat\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

@@ -16,6 +16,9 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ISettingService, SettingService>();
 builder.Services.AddScoped<IPageService, PageService>();
+builder.Services.AddScoped<IPostImageService, PostImageService>();
+builder.Services.AddScoped<IPostCommentService, PostCommentService>();
+
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 

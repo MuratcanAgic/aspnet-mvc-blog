@@ -24,8 +24,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Blog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Category/Index.cshtml]
@@ -36,8 +60,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Page/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Page/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Page/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Page/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostComment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdENvbW1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostComment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdENvbW1lbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostComment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdENvbW1lbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostComment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdENvbW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostImage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdEltYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostImage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdEltYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostImage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdEltYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/PostImage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdEltYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Setting/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Setting/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Setting/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Setting/Index.cshtml]
@@ -46,6 +126,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/murat/source/repos/aspnet-mvc-blog/AspNetMvcBlog/App.Web.Mvc/Areas/Admin/Views/User/Index.cshtml]

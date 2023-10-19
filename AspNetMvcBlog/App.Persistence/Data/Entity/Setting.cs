@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace App.Persistence.Data.Entity
@@ -9,6 +10,12 @@ namespace App.Persistence.Data.Entity
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
 
+    [DisplayName("Karanlık Mod")]
     public bool DarkMode { get; set; }
+
+    [DisplayName("Kullanıcı")]
+    public int UserId { get; set; }
+
+    public User? User { get; set; }
   }
 }
